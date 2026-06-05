@@ -10,7 +10,7 @@ export const Button: FunctionComponent<PropsWithChildren<ButtonProps>> = ({
     <button
       type="button"
       className={classNames(
-        "px-3 py-1.5 rounded-lg border border-gray-300 text-sm font-medium text-gray-700 hover:bg-gray-50 transition-all",
+        "px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-medium transition-all",
       )}
     >
       {children}
