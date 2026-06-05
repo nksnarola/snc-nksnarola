@@ -19,6 +19,9 @@ export const MainLayout: FunctionComponent<
         "flex flex-col justify-center items-center",
       )}
     >
+      <h1 className="mb-5 font-bold text-xl text-blue-600">
+        Click on person to get data
+      </h1>
       <div className={classNames("flex gap-2")}>
         {Object.values(Person).map((person) => (
           <Button key={person}>{person}</Button>
