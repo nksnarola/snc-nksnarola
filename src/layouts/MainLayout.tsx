@@ -26,7 +26,6 @@ export const MainLayout: FunctionComponent<
         {Object.values(Person).map((person) => (
           <Button key={person}>{person}</Button>
         ))}
-        <button />
       </div>
     </main>
   );
