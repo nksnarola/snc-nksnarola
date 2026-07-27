@@ -12,4 +12,6 @@ export enum Person {
   PersonB = "PersonB",
   PersonC = "PersonC",
   PersonD = "PersonD",
+  PersonE = "PersonE",
+  PersonF = "PersonF",
 }
