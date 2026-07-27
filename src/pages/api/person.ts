@@ -22,6 +22,12 @@ const getPerson: NextApiHandler = async (req, res) => {
     case Person.PersonD:
       await sleep(2000);
       break;
+    case Person.PersonE:
+      await sleep(1500);
+      break;
+    case Person.PersonF:
+      await sleep(1800);
+      break;
     default:
       res.status(404).send("Error: Person not found");
       return;
