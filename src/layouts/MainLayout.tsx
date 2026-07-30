@@ -24,7 +24,9 @@ export const MainLayout: FunctionComponent<
       </h1>
       <div className={classNames("flex gap-2")}>
         {Object.values(Person).map((person) => (
-          <Button key={person}>{person}</Button>
+          <Button key={person} variant="danger">
+            {person}
+          </Button>
         ))}
       </div>
     </main>
